@@ -1,149 +1,170 @@
 
-# MASTER SQL BOOTCAMP — LEARNING CURRICULUM
+# 📚 MASTER SQL BOOTCAMP — LEARNING CURRICULUM
 
 **Learn SQL. Solve Problems. Unlock Opportunities.**
 
-Our goal is to move from understanding SQL fundamentals to applying SQL to real-world business problems through practical, hands-on learning.
-
-## **SECTION 1: SQL FUNDAMENTALS**
-
-- Introduction to SQL and Relational Databases
-- Database, Tables, Rows, and Columns
-- SQL Data Types and Constraints
-- SQL Syntax and Query Execution
-
-## **SECTION 2: DATA QUERYING (DQL)**
-
-- `SELECT` and `SELECT DISTINCT`
-- Column Aliases
-- `TOP`, `ORDER BY`, `OFFSET` and `FETCH`
-- `WHERE` and Filtering Records
-- Comparison Operators: `=`, `<>`, `>`, `<`, `>=`, `<=`
-- Logical Operators: `AND`, `OR`, `NOT`
-- `BETWEEN`, `IN`, `LIKE`, `IS NULL`, `IS NOT NULL`
-- Wildcards and Pattern Matching
-
-## **SECTION 3: DATA DEFINITION LANGUAGE (DDL)**
-
-- `CREATE DATABASE` and `CREATE TABLE`
-- `ALTER TABLE`
-- `DROP` and `TRUNCATE`
-- Primary Keys and Foreign Keys
-- Constraints: `UNIQUE`, `CHECK`, `DEFAULT`, `NOT NULL`
-
-## **SECTION 4: DATA MANIPULATION LANGUAGE (DML)**
-
-- `INSERT INTO`
-- `UPDATE`
-- `DELETE`
-
-## **SECTION 5: AGGREGATE FUNCTIONS**
-
-- `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
-- `GROUP BY`
-- `HAVING`
-- `WHERE` vs. `HAVING`
-
-## **SECTION 6: JOINS**
-
-- `INNER JOIN`
-- `LEFT JOIN`
-- `RIGHT JOIN`
-- `FULL OUTER JOIN`
-- `CROSS JOIN`
-- Self Joins
-- Joining Multiple Tables
-
-## **SECTION 7: SET OPERATORS**
-
-- `UNION` and `UNION ALL`
-- `INTERSECT`
-- `EXCEPT`
-- Differences and Practical Applications of Set Operators
-
-## **SECTION 8: CONDITIONAL LOGIC AND EXPRESSIONS**
-
-- `CASE WHEN`
-- `COALESCE()` and `ISNULL()`
-- `CAST()` and `CONVERT()`
-- Handling Missing Values
-- Conditional Calculations
-
-## **SECTION 9: SQL FUNCTIONS**
-
-**String Functions**
-- `CONCAT()`, `LEN()`, `UPPER()`, `LOWER()`
-- `TRIM()`, `SUBSTRING()`, `REPLACE()`
-
-**Date Functions**
-- `GETDATE()`, `YEAR()`, `MONTH()`
-- `DATEDIFF()`, `DATEADD()`
-- Date Filtering and Date-Based Analysis
-
-**Numeric Functions**
-- Numeric Calculations and Rounding
-- `ROUND()`, `ABS()`, `CEILING()`, `FLOOR()`
-
-## **SECTION 10: SUBQUERIES AND COMMON TABLE EXPRESSIONS (CTEs)**
-
-- Single-Row and Multi-Row Subqueries
-- Correlated Subqueries
-- `EXISTS` and `NOT EXISTS`
-- Common Table Expressions (`WITH ... AS`)
-- Recursive CTEs
-
-## **SECTION 11: WINDOW FUNCTIONS**
-
-- `OVER()` and `PARTITION BY`
-- `ROW_NUMBER()`
-- `RANK()` and `DENSE_RANK()`
-- `LAG()` and `LEAD()`
-- Running Totals and Moving Averages
-- `NTILE()`, `PERCENT_RANK()` and `CUME_DIST()`
-- `FIRST_VALUE()` and `LAST_VALUE()`
-
-## **SECTION 12: ADVANCED SQL AND PERFORMANCE**
-
-- Views and Their Applications
-- Temporary Tables and Table Variables
-- Indexes and Query Performance
-- Query Optimization Fundamentals
-- Transactions: `BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`
-- Introduction to Stored Procedures
-
-## **SECTION 13: REAL-WORLD BUSINESS APPLICATIONS**
-
-- Sales and Revenue Analysis
-- Customer Segmentation
-- Product Performance Analysis
-- Ranking and Identifying Top Performers
-- Monthly and Year-on-Year Comparisons
-- Data Cleaning and Quality Checks
-- Business Reporting and Decision Support
-
-## **SECTION 14: PRACTICAL PROJECTS AND CAPSTONE**
-
-- Working with a Realistic Business Dataset
-- Answering Business Questions with SQL
-- Combining Joins, Aggregations, CTEs, and Window Functions
-- Identifying Trends, Patterns, and Business Opportunities
-- Presenting Data-Driven Recommendations
+Our goal is to help participants progress from SQL fundamentals to advanced querying through practical exercises and real-world business scenarios.
 
 ---
 
-## **BOOTCAMP DETAILS**
+## 📘 SECTION 1: SQL FUNDAMENTALS
 
-- **Duration:** 30 minutes per session
-- **Schedule:** Every Saturday
-- **Start Date:** November 7, 2026
-- **Time:** 5:00 PM
-- **Format:** Online
-- **Cost:** FREE
+- **Introduction to SQL and Relational Databases**
+- **Database, Tables, Rows, and Columns**
+- **SQL Data Types and Constraints**
+- **SQL Syntax and Query Execution**
 
-## **OUR LEARNING APPROACH**
+## 🔎 SECTION 2: DATA QUERYING (DQL)
 
-Every session will be practical, beginner-friendly, and connected to real-world business scenarios. Our goal is not just to memorise SQL syntax but to understand how to use SQL to solve problems.
+- **`SELECT` and `SELECT DISTINCT`**
+- **Column Aliases**
+- **`TOP`, `ORDER BY`, `OFFSET` and `FETCH`**
+- **`WHERE` and Filtering Records**
+- **Comparison Operators:** `=`, `<>`, `>`, `<`, `>=`, `<=`
+- **Logical Operators:** `AND`, `OR`, `NOT`
+- **`BETWEEN`, `IN`, `LIKE`, `IS NULL`, `IS NOT NULL`**
+- **Wildcards and Pattern Matching**
 
-Whether you are a beginner, student, job seeker, data analyst, or business professional, this bootcamp is designed to help you build practical SQL skills.
+## 🏗️ SECTION 3: DATA DEFINITION LANGUAGE (DDL)
+
+- **`CREATE DATABASE` and `CREATE TABLE`**
+- **`ALTER TABLE`**
+- **`DROP` and `TRUNCATE`**
+- **Primary Keys and Foreign Keys**
+- **Constraints:** `UNIQUE`, `CHECK`, `DEFAULT`, `NOT NULL`
+
+## ✍️ SECTION 4: DATA MANIPULATION LANGUAGE (DML)
+
+- **`INSERT INTO`**
+- **`UPDATE`**
+- **`DELETE`**
+- **Safe Data Modification and Transactions**
+
+## 📊 SECTION 5: AGGREGATE FUNCTIONS
+
+- **Aggregate Functions:** `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
+- **`GROUP BY`**
+- **`HAVING`**
+- **`WHERE` vs. `HAVING`**
+
+## 🔗 SECTION 6: JOINS
+
+- **`INNER JOIN`**
+- **`LEFT JOIN`**
+- **`RIGHT JOIN`**
+- **`FULL OUTER JOIN`**
+- **`CROSS JOIN`**
+- **Self Joins**
+- **Joining Multiple Tables**
+
+## 🔀 SECTION 7: SET OPERATORS
+
+- **`UNION` and `UNION ALL`**
+- **`INTERSECT`**
+- **`EXCEPT`**
+- **Differences and Practical Applications**
+
+## 🧠 SECTION 8: CONDITIONAL LOGIC AND EXPRESSIONS
+
+- **`CASE WHEN`**
+- **`COALESCE()` and `ISNULL()`**
+- **`CAST()` and `CONVERT()`**
+- **Handling Missing Values**
+- **Conditional Calculations**
+
+## ⚙️ SECTION 9: SQL FUNCTIONS
+
+**String Functions**
+- `CONCAT()`, `LEN()`, `UPPER()`, `LOWER()`, `TRIM()`, `SUBSTRING()`, `REPLACE()`
+
+**Date Functions**
+- `GETDATE()`, `YEAR()`, `MONTH()`, `DATEDIFF()`, `DATEADD()`
+
+**Numeric Functions**
+- `ROUND()`, `ABS()`, `CEILING()`, `FLOOR()`
+
+## 🧩 SECTION 10: SUBQUERIES AND COMMON TABLE EXPRESSIONS (CTEs)
+
+- **Single-Row and Multi-Row Subqueries**
+- **Correlated Subqueries**
+- **`EXISTS` and `NOT EXISTS`**
+- **Common Table Expressions (`WITH ... AS`)**
+- **Recursive CTEs**
+
+## 📈 SECTION 11: WINDOW FUNCTIONS
+
+- **`OVER()` and `PARTITION BY`**
+- **`ROW_NUMBER()`**
+- **`RANK()` and `DENSE_RANK()`**
+- **`LAG()` and `LEAD()`**
+- **Running Totals and Moving Averages**
+- **`NTILE()`, `PERCENT_RANK()` and `CUME_DIST()`**
+- **`FIRST_VALUE()` and `LAST_VALUE()`**
+
+## 🚀 SECTION 12: ADVANCED SQL AND PERFORMANCE
+
+- **Views and Their Applications**
+- **Temporary Tables and Table Variables**
+- **Indexes and Query Performance**
+- **Query Optimization Fundamentals**
+- **Transactions:** `BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`
+- **Introduction to Stored Procedures**
+
+## 💼 SECTION 13: REAL-WORLD BUSINESS APPLICATIONS
+
+- **Sales and Revenue Analysis**
+- **Customer Segmentation**
+- **Product Performance Analysis**
+- **Ranking and Identifying Top Performers**
+- **Monthly and Year-on-Year Comparisons**
+- **Data Cleaning and Quality Checks**
+- **Business Reporting and Decision Support**
+
+## 🎯 SECTION 14: PRACTICAL PROJECTS AND CAPSTONE
+
+- **Working with a Realistic Business Dataset**
+- **Answering Business Questions with SQL**
+- **Combining Joins, Aggregations, CTEs, and Window Functions**
+- **Identifying Trends, Patterns, and Business Opportunities**
+- **Presenting Data-Driven Recommendations**
+
+---
+
+## 🛠️ TOOLS AND TECHNOLOGIES
+
+- **SQL Server:** Primary database platform for practical exercises.
+- **SQL Server Management Studio (SSMS):** For writing and executing SQL queries.
+- **GitHub:** For accessing scripts, tracking updates, and sharing learning resources.
+
+## 🚀 GETTING STARTED
+
+1. **Install SQL Server and SSMS.**
+2. **Clone or download this repository.**
+3. **Navigate to the topic you want to learn.**
+4. **Open the `.sql` script in your SQL editor.**
+5. **Execute the queries against the required sample database.**
+6. **Modify the queries, experiment with different conditions, and practise the exercises.**
+
+> **Tip:** Always practise against a test database rather than a production database.
+
+## 💡 HOW TO USE THIS REPOSITORY
+
+- **Follow the topics sequentially.**
+- **Practise SQL syntax and query-writing techniques.**
+- **Solve exercises designed around practical scenarios.**
+- **Understand how SQL supports data analysis and business reporting.**
+- **Build a foundation for data analytics, business intelligence, and data engineering.**
+
+## 👥 WHO IS THIS FOR?
+
+- **Students and recent graduates**
+- **NYSC members and young professionals**
+- **Aspiring data analysts and career switchers**
+- **Business professionals** in finance, operations, supply chain, sales, HR, and reporting
+- **Anyone interested in learning SQL and working with data**
+
+## ❤️ OUR MISSION
+
+To make practical SQL education accessible, simplify data skills for everyone, and contribute to **bridging the digital divide through knowledge sharing and community learning.**
 
 **Let's learn SQL, solve problems, and unlock opportunities together!**
